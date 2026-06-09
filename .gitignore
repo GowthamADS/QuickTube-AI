@@ -1,9 +1,14 @@
 # Node and Python artifacts
 node_modules/
 backend/venv/
+.venv/
 .DS_Store
 .env
 *.pyc
 __pycache__/
 dist/
 .vscode/
+
+# Build artifacts
+build/
+coverage/

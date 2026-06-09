@@ -1,4 +1,4 @@
-# TubeMind AI
+# QuickTube AI
 
 Sample project scaffold for a YouTube transcript summarization app.
 

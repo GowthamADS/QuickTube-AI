@@ -14,6 +14,7 @@ def summarize(request: VideoRequest):
 
     video_id = extract_video_id(request.youtube_url)
 
+
     if not video_id:
         raise HTTPException(
             status_code=400,
@@ -23,10 +24,10 @@ def summarize(request: VideoRequest):
     try:
         transcript = get_transcript(video_id)
 
-        if transcript == "Transcript unavailable for this video.":
+        if not transcript:
             raise HTTPException(
                 status_code=400,
-                detail="This video does not provide subtitles/transcripts."
+                detail="Transcript could not be retrieved."
             )
 
         ai_response = summarize_video(transcript)

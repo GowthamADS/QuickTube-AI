@@ -1,0 +1,9 @@
+# Node and Python artifacts
+node_modules/
+backend/venv/
+.DS_Store
+.env
+*.pyc
+__pycache__/
+dist/
+.vscode/

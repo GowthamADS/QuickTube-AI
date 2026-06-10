@@ -53,7 +53,7 @@ const [errorMessage, setErrorMessage] = useState<string | JSX.Element>("");
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/summarize",
+        `${import.meta.env.VITE_API_URL}/summarize`,
         {
           youtube_url: url,
         }
@@ -80,7 +80,18 @@ const [errorMessage, setErrorMessage] = useState<string | JSX.Element>("");
           return;
         }
 
-        setErrorMessage("❌ Failed to analyze video.");
+        if (error.response?.status === 500) {
+          setErrorMessage(
+            error.response?.data?.detail ||
+            "Server error occurred."
+          );
+          return;
+        }
+
+        setErrorMessage(
+          error.response?.data?.detail ||
+          "❌ Failed to analyze video."
+        );
       }
       finally {
       setLoading(false);

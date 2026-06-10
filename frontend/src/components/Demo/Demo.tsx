@@ -1,13 +1,15 @@
 import axios from "axios";
 import { useState } from "react";
 import ResultCard from "../ResultCard/ResultCard";
-import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons/faWandMagicSparkles";
-import { faBolt } from "@fortawesome/free-solid-svg-icons/faBolt";
-import { faFileLines } from "@fortawesome/free-solid-svg-icons/faFileLines";
-import { faRobot } from "@fortawesome/free-solid-svg-icons/faRobot";
-import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLink,
+  faWandMagicSparkles,
+  faBolt,
+  faFileLines,
+  faRobot,
+  faTriangleExclamation,
+} from "@fortawesome/free-solid-svg-icons";
 
 
 const Demo = () => {

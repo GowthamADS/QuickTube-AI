@@ -1,7 +1,9 @@
-import { faCode } from "@fortawesome/free-solid-svg-icons/faCode";
-import { faGear } from "@fortawesome/free-solid-svg-icons/faGear";
-import { faRobot } from "@fortawesome/free-solid-svg-icons/faRobot";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCode,
+  faGear,
+  faRobot,
+} from "@fortawesome/free-solid-svg-icons";
 
 const frontendTech = [
   "React",

@@ -1,12 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
-import { faAt } from "@fortawesome/free-solid-svg-icons/faAt";
-import { faUser } from "@fortawesome/free-solid-svg-icons/faUser";
-import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
-import { faMapMarker } from "@fortawesome/free-solid-svg-icons/faMapMarker";
 import logo1 from "../../assets/images/logo.png";
-import { faHeart } from "@fortawesome/free-solid-svg-icons/faHeart";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+import {
+  faAt,
+  faUser,
+  faPhone,
+  faMapMarkerAlt,
+  faHeart,
+} from "@fortawesome/free-solid-svg-icons";
+
 const Footer = () => {
   return (
     <footer
@@ -175,7 +178,7 @@ const Footer = () => {
 
               <li>
                 
-                  <FontAwesomeIcon icon={faMapMarker} /> Chennai, India
+                  <FontAwesomeIcon icon={faMapMarkerAlt} /> Chennai, India
                 
               </li>
 

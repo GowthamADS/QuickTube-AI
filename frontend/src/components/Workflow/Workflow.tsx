@@ -1,10 +1,12 @@
-import { faChartBar } from "@fortawesome/free-solid-svg-icons/faChartBar";
-import { faFileLines } from "@fortawesome/free-solid-svg-icons/faFileLines";
-import { faLink } from "@fortawesome/free-solid-svg-icons/faLink";
-import { faRobot } from "@fortawesome/free-solid-svg-icons/faRobot";
-import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons/faWandMagicSparkles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { color } from "framer-motion";
+import {
+  faChartBar,
+  faFileLines,
+  faLink,
+  faRobot,
+  faWandMagicSparkles,
+} from "@fortawesome/free-solid-svg-icons";
+
 
 const workflowSteps = [
   {

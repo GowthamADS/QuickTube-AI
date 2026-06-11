@@ -1,4 +1,9 @@
-import { faCircleCheck, faCircleDot, faCopy, faFileLines } from "@fortawesome/free-regular-svg-icons";
+import {
+  faCircleCheck,
+  faCircleDot,
+  faCopy,
+  faFileLines
+} from "@fortawesome/free-regular-svg-icons";
 import { faChartSimple, faClock, faTags } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";

@@ -59,7 +59,8 @@ def summarize(request: VideoRequest):
                 detail="AI quota exceeded. Please try again later."
             )
 
+    except Exception:
         raise HTTPException(
             status_code=500,
-            detail=f"Server Error: {str(e)}"
+            detail="Unable to retrieve subtitles for this video. Please try another video."
         )

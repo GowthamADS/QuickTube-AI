@@ -1,210 +1,144 @@
 <div align="center">
 
-# 🚀 QuickTube
+# QuickTube
 
-### AI Powered YouTube Video Summarizer
+### AI-Powered YouTube Video Summarizer
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=850&lines=Summarize+YouTube+Videos+with+AI.;Powered+by+Large+Language+Models.;Learn+Faster.+Save+Time.;Transform+Hours+into+Minutes." />
+Convert long YouTube videos into concise, meaningful summaries using Natural Language Processing and Large Language Models.
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=QuickTube&fontSize=70&fontColor=ffffff&animation=fadeIn"/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Flask-Web_Framework-black?style=flat-square">
+  <img src="https://img.shields.io/badge/NLP-AI-success?style=flat-square">
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square">
+</p>
 
 </div>
 
 ---
 
-# 🌌 Overview
+## Overview
 
-QuickTube is an AI-powered web application that transforms lengthy YouTube videos into concise and meaningful summaries.
+QuickTube is an AI-powered web application that summarizes YouTube videos into concise, easy-to-read insights.
 
-Simply paste a YouTube URL and let AI automatically:
+The application automatically extracts video transcripts, processes them using Natural Language Processing (NLP) and Large Language Models (LLMs), and generates high-quality summaries within seconds.
 
-- 🎥 Extract Transcript
-- 🧠 Understand Content
-- ✨ Generate Summary
-- 📚 Deliver Key Insights
+It is designed for students, professionals, researchers, and anyone looking to consume educational content more efficiently.
 
 ---
 
-# 🎬 Demo
+## Preview
 
 <p align="center">
 
-<img src="demo/demo.gif" width="900"/>
+<img src="assets/demo.gif" width="900">
 
 </p>
 
-> Replace **demo/demo.gif** with your own screen recording GIF.
+---
+
+## Features
+
+| | |
+|---|---|
+| AI-powered summarization | Automatic transcript extraction |
+| Fast processing | Clean responsive interface |
+| Public YouTube support | NLP-based text processing |
+| Easy to use | Lightweight architecture |
 
 ---
 
-# ⚡ Features
+## Architecture
 
-<table>
-
-<tr>
-
-<td>
-
-✅ AI Generated Summaries
-
-</td>
-
-<td>
-
-🎥 Transcript Extraction
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-⚡ Fast Processing
-
-</td>
-
-<td>
-
-📱 Responsive UI
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-📚 Educational
-
-</td>
-
-<td>
-
-💼 Professional Friendly
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-🌐 Public YouTube Videos
-
-</td>
-
-<td>
-
-🧠 NLP Powered
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# 🧠 AI Workflow
-
-```text
-             User
-               │
-               ▼
-      Paste YouTube URL
-               │
-               ▼
-   Extract Video Transcript
-               │
-               ▼
- Natural Language Processing
-               │
-               ▼
-   Large Language Model (LLM)
-               │
-               ▼
-      Generate Summary
-               │
-               ▼
-      Display Result
+```
+User
+   │
+   ▼
+YouTube URL
+   │
+   ▼
+Transcript Extraction
+   │
+   ▼
+Natural Language Processing
+   │
+   ▼
+Large Language Model
+   │
+   ▼
+Summary Generation
 ```
 
 ---
 
-# 🛠 Tech Stack
+## Technology Stack
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,flask,html,css,js,git,github,vscode"/>
-
-</div>
-
-| Category | Technologies |
-|------------|---------------------------|
+| Layer | Technologies |
+|--------|--------------|
 | Backend | Python, Flask |
 | AI | Large Language Models |
 | NLP | Natural Language Processing |
-| API | YouTube Transcript API |
+| APIs | YouTube Transcript API |
 | Frontend | HTML5, CSS3, JavaScript |
 | Version Control | Git, GitHub |
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
-```text
-QuickTube/
-│
-├── static/
-│      ├── css/
-│      ├── js/
-│      └── images/
-│
-├── templates/
-│      └── index.html
+```
+QuickTube
 │
 ├── app.py
 ├── summarizer.py
 ├── transcript.py
 ├── requirements.txt
+│
+├── templates
+│      └── index.html
+│
+├── static
+│      ├── css
+│      ├── js
+│      └── images
+│
+├── assets
+│      ├── demo.gif
+│      ├── home.png
+│      └── result.png
+│
 └── README.md
 ```
 
 ---
 
-# 🚀 Installation
+## Installation
 
-Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/QuickTube.git
 ```
 
-Go to project
+Navigate into the project
 
 ```bash
 cd QuickTube
 ```
 
-Install Packages
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Application
+Start the application
 
 ```bash
 python app.py
 ```
 
-Open Browser
+Visit
 
 ```
 http://127.0.0.1:5000
@@ -212,193 +146,66 @@ http://127.0.0.1:5000
 
 ---
 
-# 📸 Screenshots
+## Screenshots
 
-<table>
-
-<tr>
-
-<td>
-
-<img src="screenshots/home.png"/>
-
-</td>
-
-<td>
-
-<img src="screenshots/result.png"/>
-
-</td>
-
-</tr>
-
-</table>
+| Home | Summary |
+|------|---------|
+| <img src="assets/home.png"> | <img src="assets/result.png"> |
 
 ---
 
-# 🎯 Use Cases
+## How It Works
 
-<table>
-
-<tr>
-
-<td>🎓 Students</td>
-
-<td>👨‍💻 Developers</td>
-
-</tr>
-
-<tr>
-
-<td>📚 Researchers</td>
-
-<td>🎙 Content Creators</td>
-
-</tr>
-
-<tr>
-
-<td>💼 Professionals</td>
-
-<td>📈 Lifelong Learners</td>
-
-</tr>
-
-</table>
+1. Paste a YouTube URL.
+2. Extract the transcript.
+3. Process the transcript using NLP.
+4. Generate an AI-powered summary.
+5. Display the summarized content.
 
 ---
 
-# 🔮 Future Roadmap
+## Future Improvements
 
-<table>
-
-<tr>
-
-<td width="50%">
-
-### 🚀 Upcoming Features
-
-- 🌍 Multi-language Support
-- 🎤 Audio Summarization
-- 📄 PDF Export
-- 🌐 Chrome Extension
-- 📱 Mobile App
-- ☁ Cloud Deployment
-- 📊 Analytics Dashboard
-- 🤖 Personalized AI Notes
-
-</td>
-
-<td width="50%" align="center">
-
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="320"/>
-
-</td>
-
-</tr>
-
-</table>
+- Multi-language support
+- PDF export
+- Chrome extension
+- Authentication
+- Summary history
+- AI-generated notes
+- Keyword extraction
+- Cloud deployment
 
 ---
 
-# ⚡ Why QuickTube?
+## Performance Goals
 
-<table>
-
-<tr>
-
-<td width="50%" align="center">
-
-<img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="250"/>
-
-</td>
-
-<td width="50%">
-
-## Before
-
-⏳ Watch 2 Hours
-
-😴 Pause Frequently
-
-📝 Take Notes
+| Metric | Target |
+|----------|-----------|
+| Transcript extraction | < 5 sec |
+| AI summary generation | < 10 sec |
+| Responsive UI | Mobile/Desktop |
+| Browser Support | Chrome, Edge, Firefox |
 
 ---
 
-## After
+## Developer
 
-⚡ Read in 2 Minutes
+**Gowtham D**
 
-🎯 Key Insights
+Artificial Intelligence & Data Science Graduate
 
-🚀 Save Time
-
-🧠 Learn Faster
-
-</td>
-
-</tr>
-
-</table>
+Focused on building AI-powered web applications using Machine Learning, Natural Language Processing, and modern backend technologies.
 
 ---
 
-# 💻 Meet the Developer
+## License
 
-<table>
-
-<tr>
-
-<td width="30%" align="center">
-
-<img src="https://avatars.githubusercontent.com/u/583231?v=4" width="180"/>
-
-</td>
-
-<td width="70%">
-
-# Gowtham D
-
-### AI & Data Science Graduate
-
-💡 Passionate about AI, Machine Learning and Full Stack Development.
-
-🚀 Building intelligent applications that solve real-world problems.
-
-📍 India
-
-</td>
-
-</tr>
-
-</table>
+This project is licensed under the MIT License.
 
 ---
-
-# 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
-
-</div>
-
----
-
-# 🌟 Support
-
-<div align="center">
-
-If you found this project useful,
-
-## ⭐ Give it a Star ⭐
-
-<img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="350"/>
-
-### "Turning hours of watching into minutes of understanding."
-
-Made with ❤️ by **Gowtham D**
+If you found this project useful, consider giving it a star.
 
 </div>

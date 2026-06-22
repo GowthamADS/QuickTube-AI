@@ -1,97 +1,173 @@
 <div align="center">
 
 # 🚀 QuickTube
-### ⚡ AI-Powered YouTube Video Summarizer
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=Summarize+Long+Videos+in+Seconds.;Powered+by+AI+%26+NLP.;Learn+Faster.+Save+Time." />
+### AI Powered YouTube Video Summarizer
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&pause=1000&color=00E5FF&center=true&vCenter=true&width=850&lines=Summarize+YouTube+Videos+with+AI.;Powered+by+Large+Language+Models.;Learn+Faster.+Save+Time.;Transform+Hours+into+Minutes." />
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=QuickTube&fontSize=70&fontColor=ffffff&animation=fadeIn"/>
+
+</div>
+
+---
+
+# 🌌 Overview
+
+QuickTube is an AI-powered web application that transforms lengthy YouTube videos into concise and meaningful summaries.
+
+Simply paste a YouTube URL and let AI automatically:
+
+- 🎥 Extract Transcript
+- 🧠 Understand Content
+- ✨ Generate Summary
+- 📚 Deliver Key Insights
+
+---
+
+# 🎬 Demo
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai"/>
-<img src="https://img.shields.io/badge/NLP-00C853?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+<img src="demo/demo.gif" width="900"/>
+
 </p>
 
----
-
-## 🌌 Overview
-
-QuickTube is an **AI-powered web application** that transforms lengthy YouTube videos into concise, meaningful summaries within seconds.
-
-Simply paste a YouTube URL and let AI extract the transcript, analyze the content using Natural Language Processing (NLP) and Large Language Models (LLMs), then generate an easy-to-read summary.
-
-> 🎯 Learn faster. Save time. Understand more.
+> Replace **demo/demo.gif** with your own screen recording GIF.
 
 ---
 
-# ✨ Features
+# ⚡ Features
 
-🧠 AI Generated Smart Summaries
+<table>
 
-🎥 Automatic Transcript Extraction
+<tr>
+
+<td>
+
+✅ AI Generated Summaries
+
+</td>
+
+<td>
+
+🎥 Transcript Extraction
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
 
 ⚡ Fast Processing
 
-📚 Educational & Professional Friendly
+</td>
 
-🎯 Clean Responsive Interface
+<td>
 
-🔗 Paste Any Public YouTube Link
+📱 Responsive UI
 
-📱 Mobile Friendly Design
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+📚 Educational
+
+</td>
+
+<td>
+
+💼 Professional Friendly
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+🌐 Public YouTube Videos
+
+</td>
+
+<td>
+
+🧠 NLP Powered
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 🧠 AI Workflow
+
+```text
+             User
+               │
+               ▼
+      Paste YouTube URL
+               │
+               ▼
+   Extract Video Transcript
+               │
+               ▼
+ Natural Language Processing
+               │
+               ▼
+   Large Language Model (LLM)
+               │
+               ▼
+      Generate Summary
+               │
+               ▼
+      Display Result
+```
 
 ---
 
 # 🛠 Tech Stack
 
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,flask,html,css,js,git,github,vscode"/>
+
+</div>
+
 | Category | Technologies |
-|-----------|--------------|
+|------------|---------------------------|
 | Backend | Python, Flask |
-| AI | Large Language Models (LLMs) |
+| AI | Large Language Models |
 | NLP | Natural Language Processing |
 | API | YouTube Transcript API |
 | Frontend | HTML5, CSS3, JavaScript |
-| Version Control | Git & GitHub |
-
----
-
-# ⚙ Workflow
-
-```text
-User
- │
- ▼
-Paste YouTube URL
- │
- ▼
-Extract Transcript
- │
- ▼
-AI + NLP Processing
- │
- ▼
-Generate Summary
- │
- ▼
-Display Results
-```
+| Version Control | Git, GitHub |
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 QuickTube/
 │
 ├── static/
-│   ├── css/
-│   ├── js/
+│      ├── css/
+│      ├── js/
+│      └── images/
 │
 ├── templates/
-│   ├── index.html
+│      └── index.html
 │
 ├── app.py
 ├── summarizer.py
@@ -104,31 +180,31 @@ QuickTube/
 
 # 🚀 Installation
 
-Clone the repository
+Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/QuickTube.git
 ```
 
-Move into project
+Go to project
 
 ```bash
 cd QuickTube
 ```
 
-Install dependencies
+Install Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+Run Application
 
 ```bash
 python app.py
 ```
 
-Open
+Open Browser
 
 ```
 http://127.0.0.1:5000
@@ -136,83 +212,193 @@ http://127.0.0.1:5000
 
 ---
 
-# 📸 Demo
+# 📸 Screenshots
 
-```
-Paste YouTube URL
+<table>
 
-↓
+<tr>
 
-Transcript Extracted
+<td>
 
-↓
+<img src="screenshots/home.png"/>
 
-AI Processing...
+</td>
 
-↓
+<td>
 
-✨ Summary Generated
-```
+<img src="screenshots/result.png"/>
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
 # 🎯 Use Cases
 
-🎓 Students
+<table>
 
-👨‍💻 Developers
+<tr>
 
-📖 Researchers
+<td>🎓 Students</td>
 
-🎙 Podcast Listeners
+<td>👨‍💻 Developers</td>
 
-📹 Content Creators
+</tr>
 
-💼 Professionals
+<tr>
+
+<td>📚 Researchers</td>
+
+<td>🎙 Content Creators</td>
+
+</tr>
+
+<tr>
+
+<td>💼 Professionals</td>
+
+<td>📈 Lifelong Learners</td>
+
+</tr>
+
+</table>
 
 ---
 
-# 📈 Future Enhancements
+# 🔮 Future Roadmap
 
-- 🎤 Multi-language Support
-- 🔊 Audio Summarization
+<table>
+
+<tr>
+
+<td width="50%">
+
+### 🚀 Upcoming Features
+
+- 🌍 Multi-language Support
+- 🎤 Audio Summarization
 - 📄 PDF Export
 - 🌐 Chrome Extension
 - 📱 Mobile App
-- 🤖 Personalized AI Notes
 - ☁ Cloud Deployment
-- 📊 Key Insights Dashboard
+- 📊 Analytics Dashboard
+- 🤖 Personalized AI Notes
+
+</td>
+
+<td width="50%" align="center">
+
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="320"/>
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-# 🌟 Why QuickTube?
+# ⚡ Why QuickTube?
 
-Instead of spending
+<table>
 
-⏳ **2 Hours Watching**
+<tr>
 
-Get
+<td width="50%" align="center">
 
-⚡ **2 Minutes Reading**
+<img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="250"/>
+
+</td>
+
+<td width="50%">
+
+## Before
+
+⏳ Watch 2 Hours
+
+😴 Pause Frequently
+
+📝 Take Notes
 
 ---
 
-# 👨‍💻 Developer
+## After
 
-**Gowtham D**
+⚡ Read in 2 Minutes
 
-AI & Data Science Graduate
+🎯 Key Insights
 
-💡 Building Intelligent Systems
+🚀 Save Time
 
-🌐 Passionate about AI • NLP • Machine Learning • Full Stack Development
+🧠 Learn Faster
+
+</td>
+
+</tr>
+
+</table>
 
 ---
+
+# 💻 Meet the Developer
+
+<table>
+
+<tr>
+
+<td width="30%" align="center">
+
+<img src="https://avatars.githubusercontent.com/u/583231?v=4" width="180"/>
+
+</td>
+
+<td width="70%">
+
+# Gowtham D
+
+### AI & Data Science Graduate
+
+💡 Passionate about AI, Machine Learning and Full Stack Development.
+
+🚀 Building intelligent applications that solve real-world problems.
+
+📍 India
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 📊 GitHub Stats
 
 <div align="center">
 
-### ⭐ If you found this project useful, give it a Star!
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
 
-**"Turning hours of watching into minutes of understanding."**
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+
+</div>
+
+---
+
+# 🌟 Support
+
+<div align="center">
+
+If you found this project useful,
+
+## ⭐ Give it a Star ⭐
+
+<img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="350"/>
+
+### "Turning hours of watching into minutes of understanding."
+
+Made with ❤️ by **Gowtham D**
 
 </div>

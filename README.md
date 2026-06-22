@@ -90,27 +90,33 @@ Summary Generation
 
 ## Project Structure
 
-```
+```text
 QuickTube
 │
-├── app.py
-├── summarizer.py
-├── transcript.py
-├── requirements.txt
+├── backend/                    # Flask backend & AI processing
+│   ├── app/                    # Application modules
+│   ├── run.py                  # Application entry point
+│   ├── requirements.txt        # Python dependencies
+│   └── test_openrouter.py      # API testing
 │
-├── templates
-│      └── index.html
+├── frontend/                   # React + Vite frontend
+│   ├── public/                 # Static assets
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── App.tsx
+│   │
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── tailwind.config.js
 │
-├── static
-│      ├── css
-│      ├── js
-│      └── images
+├── docs/                       # Project documentation
+├── screenshots/                # README images & GIFs
 │
-├── assets
-│      ├── demo.gif
-│      ├── home.png
-│      └── result.png
-│
+├── .gitignore
 └── README.md
 ```
 
@@ -195,15 +201,12 @@ Focused on building AI-powered web applications using Machine Learning, Natural 
 
 ---
 
-# 🌟 Support
+# Support
 
-<div align="center">
 
 If you found this project useful,
 
 ## ⭐ Give it a Star ⭐
-
-<img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="350"/>
 
 ### "Turning hours of watching into minutes of understanding."
 

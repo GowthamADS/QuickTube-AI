@@ -18,12 +18,15 @@ Convert long YouTube videos into concise, meaningful summaries using Natural Lan
 ---
 ## Preview
 
+
+QuickTube enables users to convert lengthy YouTube videos into concise, meaningful summaries using Natural Language Processing and Large Language Models.
+
+The live application is available below.
+
 <p align="center">
-
- <a href="https://quicktube-ai.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Site-00C853?style=flat-square&logo=netlify&logoColor=white">
-  </a>
-
+    <a href="https://quicktube-ai.netlify.app/">
+        <img src="https://img.shields.io/badge/Visit-Live%20Application-111827?style=for-the-badge&logo=netlify&logoColor=white">
+    </a>
 </p>
 
 ---

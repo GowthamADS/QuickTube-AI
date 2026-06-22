@@ -198,14 +198,18 @@ Focused on building AI-powered web applications using Machine Learning, Natural 
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
+# 🌟 Support
 
 <div align="center">
 
-If you found this project useful, consider giving it a star.
+If you found this project useful,
+
+## ⭐ Give it a Star ⭐
+
+<img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="350"/>
+
+### "Turning hours of watching into minutes of understanding."
+
+Made with ❤️ by **Gowtham D**
 
 </div>

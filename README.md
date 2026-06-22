@@ -27,16 +27,6 @@ It is designed for students, professionals, researchers, and anyone looking to c
 
 ---
 
-## Preview
-
-<p align="center">
-
-<img src="assets/demo.gif" width="900">
-
-</p>
-
----
-
 ## Features
 
 | | |
@@ -146,13 +136,6 @@ http://127.0.0.1:5000
 
 ---
 
-## Screenshots
-
-| Home | Summary |
-|------|---------|
-| <img src="assets/home.png"> | <img src="assets/result.png"> |
-
----
 
 ## How It Works
 

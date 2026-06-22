@@ -203,13 +203,12 @@ Focused on building AI-powered web applications using Machine Learning, Natural 
 
 # Support
 
+<p align="center">
+  <a href="https://github.com/GowthamADS/QuickTube-AI">
+    <img src="https://img.shields.io/badge/⭐_Give_a_Star-Support_Project-gold?style=for-the-badge" />
+  </a>
+</p>
 
-If you found this project useful,
-
-## ⭐ Give it a Star ⭐
-
-### "Turning hours of watching into minutes of understanding."
-
-Made with ❤️ by **Gowtham D**
-
-</div>
+<p align="center">
+  If you found this project useful, please consider giving it a ⭐ on GitHub!
+</p>

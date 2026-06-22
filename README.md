@@ -10,7 +10,10 @@ Convert long YouTube videos into concise, meaningful summaries using Natural Lan
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Flask-Web_Framework-black?style=flat-square">
   <img src="https://img.shields.io/badge/NLP-AI-success?style=flat-square">
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square">
+  
+   <a href="https://quicktube-ai.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Site-00C853?style=flat-square&logo=netlify&logoColor=white">
+  </a>
 </p>
 
 </div>
